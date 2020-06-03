@@ -1,0 +1,152 @@
+.nav {
+  background-color: rgb(71, 164, 240);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  flex: 0 0 10%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.img-container {
+  position: relative;
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-picture__caption {
+  opacity: 0;
+  color: #eee;
+  font-size: 1.4rem;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.nav-projects-dropdown {
+  display: none;
+}
+
+.sidenav__links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.sidenav__link {
+  color: #eee;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* upto 1200px */
+@media only screen and (min-width: 75em) {
+  .nav-item:hover {
+    transform: translateX(2px) scale(1.1);
+    border-left: 1px solid #ccc;
+  }
+  .img-container:hover .profile-picture {
+    filter: blur(0.4rem) brightness(70%);
+  }
+
+  .img-container:hover .profile-picture__caption {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+.active {
+  font-weight: 600;
+}
+
+.nav-break {
+  background-color: #eee;
+  height: 0.08px;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* upto 900px  */
+/* REMOVE SIDENAV */
+@media only screen and (max-width: 56.25em) {
+  .nav {
+    flex-direction: row;
+    padding: 1rem 1rem;
+  }
+
+  .active {
+    font-weight: 300;
+  }
+
+  .nav-container {
+    flex-direction: row;
+    margin: 2rem;
+  }
+
+  .nav-projects {
+    display: none;
+  }
+
+  .sidenav__links {
+    display: none;
+  }
+
+  /* DROP DOWN SYSTEM */
+  .nav-projects-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .drop-down {
+    display: none;
+    flex-direction: column;
+    background: rgb(71, 164, 240);
+    padding: 1rem;
+    width: 15rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+  }
+  .drop-down-toggler {
+    cursor: pointer;
+  }
+  .nav-projects-dropdown:hover .drop-down {
+    display: flex;
+  }
+  /* DROP DOWN SYSTEM ENDS */
+
+  .profile-picture {
+    display: none;
+  }
+  .nav-break {
+    display: none;
+  }
+}
+
+/* upto 600px */
+@media only screen and (max-width: 37.5em) {
+  .nav {
+    padding: 1rem 0;
+    justify-content: center;
+  }
+  .nav-container {
+    margin: 2rem 0;
+  }
+}

@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.site__heading {
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.section {
+  color: #333;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem 10rem 10rem;
+  min-height: 100vh;
+  flex: 1 0 0;
+}
+
+.section__heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+
+.section__text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
+
+.section__list-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+
+.section__list {
+  list-style: none;
+  margin: 0 auto 0 0;
+}
+
+.section__list-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section__list-item {
+  font-size: 1.4rem;
+}
+.section__list-item::before {
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.7rem;
+
+  background-image: url(./images/chevron-thin-right.svg);
+  background-size: cover;
+}
+
+/* upto 900px  */
+/* REMOVE SIDENAV */
+@media only screen and (max-width: 56.25em) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* upto 600px */
+@media only screen and (max-width: 37.5em) {
+  .section {
+    padding: 5rem 5rem 5rem 5rem;
+  }
+}
+
+/* upto 500px */
+@media only screen and (max-width: 31.25em) {
+  .section__list-container {
+    flex-direction: column;
+  }
+
+  .section__list:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+/* upto 413px */
+@media only screen and (max-width: 25.82em) {
+  .site__heading {
+    font-size: 3rem;
+  }
+}
+
+/* upto 360px */
+@media only screen and (max-width: 22.5em) {
+  .site__heading {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
