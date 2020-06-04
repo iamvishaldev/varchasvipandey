@@ -1,8 +1,14 @@
 import React from "react";
+import "./Overview.css";
+
+import Profile from "../../images/profile-pic.png";
 
 const Overview = () => {
   return (
     <section className="section section-overview">
+      <div className="profile-pic__container">
+        <img className="profile-pic" src={Profile} alt="Varchasvi" />
+      </div>
       <h1 className="site__heading">Varchasvi Pandey</h1>
       <p className="section__heading">Introduction</p>
       <p className="section__text">

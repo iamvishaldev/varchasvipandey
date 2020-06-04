@@ -1,0 +1,27 @@
+.profile-pic__container {
+  display: none;
+}
+
+/* upto 900px  */
+/* SHOW PROFILE IMAGE ON HOME */
+@media only screen and (max-width: 56.25em) {
+  .profile-pic__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  .profile-pic {
+    width: 40%;
+    border-radius: 50%;
+    border: 4px solid rgb(71, 164, 240);
+    box-shadow: 0 0.2rem 0.4rem #333;
+  }
+}
+
+/* upto 600px */
+@media only screen and (max-width: 37.5em) {
+  .profile-pic {
+    width: 50%;
+  }
+}

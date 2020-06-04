@@ -97,6 +97,9 @@
   .site__heading {
     font-size: 3rem;
   }
+  .section__list-item {
+    font-size: 1.6rem;
+  }
 }
 
 /* upto 360px */

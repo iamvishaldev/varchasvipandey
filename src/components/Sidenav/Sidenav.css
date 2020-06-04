@@ -149,4 +149,8 @@
   .nav-container {
     margin: 2rem 0;
   }
+
+  .nav-item {
+    font-size: 1.8rem;
+  }
 }
