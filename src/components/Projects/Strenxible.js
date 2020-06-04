@@ -13,7 +13,7 @@ const Strenxible = () => {
           Strenxible is a fitness application for those who find it hard to go
           to the gym either due to lack of time or money. The app comes with two
           fitness plans, one for building strength and one for building
-          flexibility. Users can easily install the application on their device
+          flexibility. Users can easily install the application on their devices
           and can workout anytime and anywhere.
         </p>
         <p className="section__heading">key features</p>
@@ -41,7 +41,7 @@ const Strenxible = () => {
           </ul>
         </div>
         {/* LINKS */}
-        <p className="section__heading">Links to project</p>
+        <p className="section__heading">Links to this project</p>
         <div className="section__list-container">
           <ul className="section__list">
             <li className="section__list-item">

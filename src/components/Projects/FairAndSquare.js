@@ -42,12 +42,12 @@ const FairAndSquare = () => {
             <li className="section__list-item">Express</li>
             <li className="section__list-item">MongoDB</li>
             <li className="section__list-item">JQuery</li>
-            <li className="section__list-item">Bootstrap (Reactstrap)</li>
+            <li className="section__list-item">Bootstrap</li>
             <li className="section__list-item">Photoshop</li>
           </ul>
         </div>
         {/* LINKS */}
-        <p className="section__heading">Links to project</p>
+        <p className="section__heading">Links to this project</p>
         <div className="section__list-container">
           <ul className="section__list">
             <li className="section__list-item">

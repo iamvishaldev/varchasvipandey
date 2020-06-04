@@ -14,7 +14,7 @@ const Overview = () => {
       <p className="section__text">
         I'm a 20-year-old boy from New Delhi, India. I'm pursuing B.Tech in
         Computer Science and Engineering from GGSIP University and I'm currently
-        in the final year of the degree. I spend much of time on my desktop,
+        in the final year of the degree. I spend much of my time on my desktop,
         learning web-technologies and making beautiful web-applications and
         producing music.
       </p>
@@ -32,7 +32,7 @@ const Overview = () => {
           <p className="section__list-title">Libraries & Frameworks</p>
           <li className="section__list-item">JQuery</li>
           <li className="section__list-item">SASS</li>
-          <li className="section__list-item">BootStap 4</li>
+          <li className="section__list-item">BootStrap 4</li>
           <li className="section__list-item">Materialize CSS</li>
         </ul>
         <ul className="section__list">

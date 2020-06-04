@@ -44,7 +44,7 @@ const CoviData = () => {
           </ul>
         </div>
         {/* LINKS */}
-        <p className="section__heading">Links to project</p>
+        <p className="section__heading">Links to this project</p>
         <div className="section__list-container">
           <ul className="section__list">
             <li className="section__list-item">
