@@ -7,11 +7,11 @@ class Blogs extends Component {
   state = {
     blogs: [
       {
-        title: "My first blog",
-        sub: "Coming soon",
+        title: "Asynchronous array behaviour in JavaScript",
+        sub: "Truth behind empty but full array",
         content:
-          "My first blog will be uploaded very soon on Medium. So do follow me on Medium to get notified. Tap this blog!",
-        link: "https://medium.com/@varchasvipandey"
+          "While working with any API, you might have come across a situation where your response returns some data that’s when pushed into an array returns a weird thing! This looks like an array and you might also see your data there, but have you ever tried checking it’s “length” or maybe applying some cool array functions like “map”?",
+        link: "https://bit.ly/async-array-js"
       }
     ]
   };

@@ -12,6 +12,9 @@ const Blog = props => {
         <p className="blog__heading">{props.heading}</p>
         <p className="blog__sub-heading">{props.subheading}</p>
         <p className="blog__content">{props.content}</p>
+        <p className="blog__content">
+          <strong>Continue on Medium</strong>
+        </p>
       </div>
     </a>
   );
