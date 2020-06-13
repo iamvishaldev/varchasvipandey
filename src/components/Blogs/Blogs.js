@@ -7,6 +7,13 @@ class Blogs extends Component {
   state = {
     blogs: [
       {
+        title: "Next.JS Revolution! MERN Stack Boon! Part-1/2",
+        sub: "Simple MERN vs Next.JS MERN",
+        content:
+          "If you have a good React development experience then congratulations! You already know how to use Next.JS. But the main purpose of Next.JS was not to replace React.JS from the front-end. Next.JS became popular because of its one of the important characteristics i.e. Pre-Rendering. That means, it can create a server-rendered React application very easily. This blog is going to be interesting because I’m going to show you how to get started with a full-stack MERN application using Next.JS. I’ll also do a head to head comparison between simple React.JS with Express.JS setup and Next.JS with Express.JS setup.",
+        link: "https://bit.ly/next-revolution-1"
+      },
+      {
         title: "Quick MERN application & a way to Cross the CORS",
         sub: "Quick MERN stack guide",
         content:
