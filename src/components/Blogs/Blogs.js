@@ -7,6 +7,13 @@ class Blogs extends Component {
   state = {
     blogs: [
       {
+        title: "Next.JS Revolution! MERN Stack Boon! Part-2/2",
+        sub: "Express server in Next.JS",
+        content:
+          "Welcome back! Let’s continue our landing page application by configuring Express.JS and making a simple route. A normal MERN stack application requires two servers, one for running the front-end code and other for running the back-end code.",
+        link: "https://bit.ly/next-revolution-2"
+      },
+      {
         title: "Next.JS Revolution! MERN Stack Boon! Part-1/2",
         sub: "Simple MERN vs Next.JS MERN",
         content:
