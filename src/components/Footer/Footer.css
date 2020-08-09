@@ -1,7 +1,7 @@
 .footer {
-  background-color: rgb(71, 164, 240);
+  background-color: var(--color-primary);
   min-height: 20vh;
-  color: #eee;
+  color: var(--color-one);
   display: flex;
   flex-direction: column;
   justify-content: center;

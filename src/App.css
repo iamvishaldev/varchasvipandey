@@ -11,8 +11,8 @@
 }
 
 .section {
-  color: #333;
-  background-color: #eee;
+  color: var(--color-two);
+  background-color: var(--color-one);
   display: flex;
   flex-direction: column;
   padding: 5rem 10rem 10rem 10rem;

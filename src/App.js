@@ -12,6 +12,7 @@ import Strenxible from "./components/Projects/Strenxible";
 import SweetBeat from "./components/Projects/SweetBeat";
 import ExpressStore from "./components/Projects/ExpressStore";
 import FairAndSquare from "./components/Projects/FairAndSquare";
+import Expressions from "./components/Projects/Expressions";
 
 // BLOGS LOADER
 import Blogs from "./components/Blogs/Blogs";
@@ -26,6 +27,7 @@ function App() {
       <Sidenav />
       {/* PROJECTS */}
       <Route path="/" exact component={Overview} />
+      <Route path="/expressions" component={Expressions} />
       <Route path="/covidata" component={CoviData} />
       <Route path="/strenxible" component={Strenxible} />
       <Route path="/sweetbeat" component={SweetBeat} />

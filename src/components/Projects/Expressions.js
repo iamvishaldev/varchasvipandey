@@ -1,36 +1,38 @@
 import React from "react";
 import "./Projects.css";
 
-import Preview from "../../images/projects/covidata.png";
+import Preview from "../../images/projects/expressions.png";
 
-const CoviData = () => {
+const Expressions = () => {
   return (
     <section className="section section-project">
       {/* TEXT INFORMATION */}
       <div className="project-section-left">
-        <p className="project__heading">CoviData</p>
+        <p className="project__heading">Expressions</p>
         <p className="section__text">
-          CoviData is a simple and fast Covid-19 data application. This
-          application can be used to check the status of Covid-19 in different
-          parts of the world. The application is primarily built for mobile
-          phones but it works and performs equally well on desktops.
+          Expressions is a simple, fast, secure and reliable app for buildinng
+          professional web-portfolios with ease. Make a fully customized
+          portfolio quickly and edit it anytime like the way you want. Share
+          your unique portfolio with your personal Expressions link provided by
+          the application. Expressions app provides a platform to job seekers so
+          that they can present themselves to the job providers, who can search
+          and contact the right person. Everyone should be able to create an
+          appealing single page portfolio with ease and for free! Everyone
+          should have the power to EXPRESS themselves.
         </p>
         <p className="section__heading">key features</p>
         <div className="section__list-container">
           <ul className="section__list">
             <li className="section__list-item">
-              Shows current status instantly.
+              Quick profile creation wizard.
+            </li>
+            <li className="section__list-item">Fully customizable looks.</li>
+            <li className="section__list-item">
+              Fully authenticated workflow.
             </li>
             <li className="section__list-item">
-              Contains complete data on a separate page.
+              Search the person based on skills
             </li>
-            <li className="section__list-item">
-              Makes single API request to fetch complete data.
-            </li>
-            <li className="section__list-item">
-              Graphical representation of the status.
-            </li>
-            <li className="section__list-item">Progressive Web App</li>
           </ul>
         </div>
         {/* TECHNOLOGIES USED */}
@@ -38,9 +40,8 @@ const CoviData = () => {
         <div className="section__list-container">
           <ul className="section__list">
             <li className="section__list-item">React</li>
-            <li className="section__list-item">Bootstrap (Reactstrap)</li>
-            <li className="section__list-item">Axios</li>
-            <li className="section__list-item">Photoshop</li>
+            <li className="section__list-item">Firebase</li>
+            <li className="section__list-item">Illustrator</li>
           </ul>
         </div>
         {/* LINKS */}
@@ -49,7 +50,7 @@ const CoviData = () => {
           <ul className="section__list">
             <li className="section__list-item">
               <a
-                href="https://covidata.varchasvipandey.now.sh/"
+                href="https://expressions.vercel.app/"
                 className="project__link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,14 +59,7 @@ const CoviData = () => {
               </a>
             </li>
             <li className="section__list-item">
-              <a
-                href="https://github.com/varchasvipandey/coviData"
-                className="project__link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
+              Source Code (This is not an open source application)
             </li>
           </ul>
         </div>
@@ -78,4 +72,4 @@ const CoviData = () => {
   );
 };
 
-export default CoviData;
+export default Expressions;

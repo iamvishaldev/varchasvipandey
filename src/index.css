@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+:root {
+  --color-primary: #d63031;
+  --color-primary-dark: #b83227;
+  --color-one: #eee;
+  --color-two: #333;
+}
+
 html {
   font-size: 62.5%;
 }

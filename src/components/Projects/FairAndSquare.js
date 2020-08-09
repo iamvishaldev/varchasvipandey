@@ -37,6 +37,7 @@ const FairAndSquare = () => {
         <p className="section__heading">Technologies used</p>
         <div className="section__list-container">
           <ul className="section__list">
+            <li className="section__list-item">JavaScript</li>
             <li className="section__list-item">Phaser.io</li>
             <li className="section__list-item">NodeJS</li>
             <li className="section__list-item">Express</li>

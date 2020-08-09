@@ -7,6 +7,7 @@ class Blogs extends Component {
   state = {
     blogs: [
       {
+        id: 1,
         title: "Next.JS Revolution! MERN Stack Boon! Part-2/2",
         sub: "Express server in Next.JS",
         content:
@@ -14,6 +15,7 @@ class Blogs extends Component {
         link: "https://bit.ly/next-revolution-2"
       },
       {
+        id: 2,
         title: "Next.JS Revolution! MERN Stack Boon! Part-1/2",
         sub: "Simple MERN vs Next.JS MERN",
         content:
@@ -21,6 +23,7 @@ class Blogs extends Component {
         link: "https://bit.ly/next-revolution-1"
       },
       {
+        id: 3,
         title: "Quick MERN application & a way to Cross the CORS",
         sub: "Quick MERN stack guide",
         content:
@@ -28,6 +31,7 @@ class Blogs extends Component {
         link: "https://bit.ly/mern-cors"
       },
       {
+        id: 4,
         title: "Asynchronous array behaviour in JavaScript",
         sub: "Truth behind empty but full array",
         content:
@@ -49,6 +53,7 @@ class Blogs extends Component {
               subheading={blog.sub}
               content={blog.content}
               link={blog.link}
+              key={blog.id}
             />
           );
         })}

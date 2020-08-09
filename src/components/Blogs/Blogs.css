@@ -6,15 +6,15 @@
 .blog-container {
   margin-top: 3rem;
   padding: 3rem;
-  border: 2px solid rgb(71, 164, 240);
+  border: 2px solid var(--color-primary);
   transition: all 0.2s;
 }
 .blog-container:hover {
-  background-color: rgb(71, 164, 240);
-  color: #eee;
+  background-color: var(--color-primary);
+  color: var(--color-one);
 }
 .blog-container:hover .blog__sub-heading {
-  color: #eee;
+  color: var(--color-one);
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -34,7 +34,7 @@
 .blog__sub-heading {
   font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(71, 164, 240);
+  color: var(--color-primary);
   padding-bottom: 1.2rem;
   transition: all 0.2s;
 }

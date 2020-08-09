@@ -29,6 +29,9 @@ const Sidenav = () => {
 
       {/* PROJECT LINKS */}
       <div className="nav-container nav-projects">
+        <NavLink to="/expressions" className="nav-item">
+          Expressions
+        </NavLink>
         <NavLink to="/covidata" className="nav-item">
           CoviData
         </NavLink>
@@ -51,6 +54,9 @@ const Sidenav = () => {
           Projects
         </p>
         <div className="drop-down">
+          <NavLink to="/expressions" className="nav-item">
+            Expressions
+          </NavLink>
           <NavLink to="/covidata" className="nav-item">
             CoviData
           </NavLink>
