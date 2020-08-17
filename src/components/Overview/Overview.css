@@ -2,9 +2,56 @@
   display: none;
 }
 
+.download-button {
+  text-decoration: none;
+  width: 20%;
+  margin: 0 auto;
+}
+.download-button:focus {
+  outline: none;
+}
+.download-button > button {
+  border: 1px solid transparent;
+  background-color: var(--color-primary);
+  color: var(--color-one);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  transition: all 0.2s;
+}
+.download-button > button:hover {
+  background-color: var(--color-one);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+}
+.download-button > button:active {
+  outline: none;
+}
+.download-button > button:focus {
+  outline-color: var(--color-primary);
+}
+
+/* upto 1080px */
+/* Alter button size */
+@media only screen and (max-width: 67.5em) {
+  .download-button {
+    width: 30%;
+  }
+  .download-button > button {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
 /* upto 900px  */
 /* SHOW PROFILE IMAGE ON HOME */
 @media only screen and (max-width: 56.25em) {
+  .download-button {
+    width: 40%;
+    margin: 0;
+  }
+
   .profile-pic__container {
     display: flex;
     justify-content: center;
@@ -21,6 +68,10 @@
 
 /* upto 600px */
 @media only screen and (max-width: 37.5em) {
+  .download-button {
+    width: 60%;
+  }
+
   .profile-pic {
     width: 50%;
   }

@@ -10,7 +10,7 @@
   transition: all 0.2s;
 }
 .blog-container:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
   color: var(--color-one);
 }
 .blog-container:hover .blog__sub-heading {

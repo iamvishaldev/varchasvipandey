@@ -49,6 +49,7 @@ const Sidenav = () => {
         </NavLink>
       </div>
 
+      {/* TOP NAV */}
       <div className="nav-container nav-projects-dropdown nav-item">
         <p className="drop-down-toggler" onClick={toggleDropDown}>
           Projects

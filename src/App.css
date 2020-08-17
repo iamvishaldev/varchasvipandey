@@ -29,9 +29,14 @@
 
 .section__text {
   font-size: 1.6rem;
-  font-weight: 300;
+  color: var(--color-text);
+  font-weight: 400;
   margin-bottom: 4rem;
   text-align: justify;
+}
+
+.section__text--imp {
+  color: var(--color-primary);
 }
 
 .section__list-container {
